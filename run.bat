@@ -1,1 +1,1 @@
-pytest -s -v -m "sanity" TestCases/ --browser %browser
+pytest -s -v -m "sanity" TestCases/ --browser chrome
