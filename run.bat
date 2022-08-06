@@ -1,1 +1,1 @@
-python -m pytest -s -v -m "sanity" TestCases/
+python -m pytest -s -v -m "sanity" --html=Reports\Automation.html TestCases/ --browser %browser
