@@ -1,1 +1,1 @@
-pytest -s -v -m "sanity" --html=Reports\Automation.html TestCases/ --browser %browser
+pytest -s -v -m "sanity" TestCases/ --browser %browser
